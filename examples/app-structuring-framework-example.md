@@ -32,7 +32,7 @@ DLWB mention is not DLWB readiness.
 | --- | --- |
 | Admitted source/context | The raw intent above; hypothetical team notes; the requirement that outputs be bounded plans rather than automatic execution instructions. |
 | Excluded context | Actual customer requirements, existing product behavior, proprietary documents, deployed systems, training data, tool permissions, and compliance assertions. |
-| Assumptions | “Teams” may include a planning role and a reviewing role; “build plan” means a structured proposed artifact, not an approved build. |
+| Assumptions | "Teams" may include a planning role and a reviewing role; "build plan" means a structured proposed artifact, not an approved build. |
 | Open questions | Which note formats are permitted? What plan fields are required? Who reviews output? What actions must the app never initiate? |
 
 ```text
@@ -59,10 +59,10 @@ Validation result is not universal truth.
 
 | Candidate DefBlock | Candidate content | Illustrative state |
 | --- | --- | --- |
-| `purpose` | Convert admitted AI project notes into a structured proposed build plan for review. | `reviewed` and `accepted-for-scope` for this example only. |
+| `purpose` | Convert admitted AI project notes into a structured proposed build plan for review. | `candidate`, pending assigned reviewer and criteria. |
 | `user_role` | A team contributor supplies notes; a reviewer assesses the proposed plan. | `candidate`, pending user/role confirmation. |
-| `input_boundary` | Notes must be supplied in an admitted context; unstated sources are excluded. | `reviewed` and `accepted-for-scope` for this example only. |
-| `output_boundary` | Output is a proposed plan artifact, not a build authorization or deployment instruction. | `reviewed` and `accepted-for-scope` for this example only. |
+| `input_boundary` | Notes must be supplied in an admitted context; unstated sources are excluded. | `candidate`, pending assigned reviewer and criteria. |
+| `output_boundary` | Output is a proposed plan artifact, not a build authorization or deployment instruction. | `candidate`, pending assigned reviewer and criteria. |
 | `integration_choice` | Whether the app connects to project or build tools. | `deferred`, because no tool authority or product context is provided. |
 
 ```text
@@ -93,7 +93,7 @@ Framework use does not prove app behavior.
 
 ## 5. MRDC
 
-MRDC could be used here only as a bounded coverage/review view of the illustrative definition.
+The named MRDC coverage/review surface could be used here only as a bounded view of the illustrative definition.
 
 | Illustrative coverage area | Present material | Gap or unresolved review item |
 | --- | --- | --- |
@@ -144,7 +144,7 @@ Possible bounded validation checks:
 | Boundary check | Proposed plan output does not state build or deployment authority. | That all future outputs comply. |
 | Trace check | A proposed plan references its admitted source-note packet and DefinitionVersion. | That the plan is semantically correct. |
 
-DSVH could describe controlled test inputs and expected review surfaces only if such fixtures and criteria are separately defined. PASDA could describe derived signal and metric records only if input records, field maps, derivation rules, formulas, and required adjudication are separately documented.
+DSVH could describe controlled test inputs and expected review surfaces only if such fixtures and criteria are separately defined. The named PASDA surface could describe derived signal and metric records only if input records, field maps, derivation rules, formulas, and required adjudication are separately documented.
 
 ```text
 Trace is not proof.

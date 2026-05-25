@@ -30,7 +30,7 @@ This is a documented pathway, not evidence that a dataset, model, training run, 
 | Surface | Model-pipeline relationship | Boundary |
 | --- | --- | --- |
 | Lenses | May produce bounded source material for candidate mapping and review. | Lens output is not a label. |
-| Verification and PASDA | May provide admitted signals, results, review context, or bounded measurements where separately documented. | A metric or validation result is not truth. |
+| Verification and PASDA | The named PASDA signal/measurement surface and verification records may provide admitted signals, results, review context, or bounded measurements where separately documented. | A metric or validation result is not truth. |
 | Dataset admission | Records a governed decision about candidate data for declared use. | Dataset admission is not model quality. |
 | Model card | Records intended use, context, evidence posture, and limitations where a model or model candidate is separately documented. | Model card is not deployment approval. |
 | Registry record | Records identity, status, references, and defined use limits. | Registry record is not deployment approval or authority. |
@@ -39,7 +39,7 @@ This is a documented pathway, not evidence that a dataset, model, training run, 
 
 | File | Purpose |
 | --- | --- |
-| [lens-to-gsm.md](lens-to-gsm.md) | Defines a governed mapping pathway toward Governed Semantic Model-facing representations. |
+| [lens-to-gsm.md](lens-to-gsm.md) | Defines a governed mapping pathway toward GSM (Governed Semantic Model)-facing representations. |
 | [dataset-admission.md](dataset-admission.md) | Defines governed admission review for candidate data. |
 | [model-card.md](model-card.md) | Defines a bounded model documentation record. |
 | [registry-record.md](registry-record.md) | Defines a bounded registration record and its use limits. |

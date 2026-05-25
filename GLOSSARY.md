@@ -25,7 +25,7 @@ These are public-facing, bounded meanings for this repository. A term names a fr
 | **SDS** | A structured definition surface for a system or capability within the framework. An SDS is not proof of implementation. |
 | **App SDS** | An SDS scoped to a DesignLogic App or capability built from the framework. It does not establish product validation or readiness. |
 | **DefBlock** | A bounded definition unit named by the framework. Its applicable contract determines its required content and permitted interpretation. |
-| **MRDC** | A named framework artifact concept whose required fields, lifecycle, and interpretation must be established by an applicable contract. The term alone carries no readiness claim. |
+| **MRDC** | A named DesignLogic Framework coverage and review concept for examining bounded definition areas. It can identify present definition material, gaps, missing review, and unresolved definition areas within a declared scope. MRDC coverage is not correctness, completeness in all contexts, or product readiness. |
 | **DefinitionVersion** | A versioned identity or record for a definition, used to distinguish referenced definition states. Versioning supports trace; it does not prove correctness. |
 | **artifact lifecycle** | The bounded progression of an artifact through defined states, reviews, handoffs, or uses under applicable contracts. |
 | **authority boundary** | A documented limit on who or what may authorize a decision or action. Describing a boundary is not enforcing it. |
@@ -33,9 +33,9 @@ These are public-facing, bounded meanings for this repository. A term names a fr
 | **handoff artifact** | An artifact prepared to transfer bounded information or work between defined contexts. Handoff is not deployment. |
 | **executable artifact package** | A packaged artifact intended for a defined execution context. Being execution-ready or executable does not mean execution is authorized. |
 | **build brief** | A bounded artifact describing work intended for a build activity. It is not evidence that a build is complete, valid, or approved. |
-| **DSVH** | A named framework verification-support surface for bounded validation activities. A DSVH result does not establish universal truth, certification, or deployment readiness. |
-| **PASDA** | A measurement surface in which metrics may be derived only through stated derivation and formula rules from atomic PASDA signal records, with review or adjudication where required. LLM self-assessment predicts; PASDA measures; variance compares. |
-| **Lens-to-GSM** | A named mapping surface for relating lens-derived information to a GSM-facing representation under an applicable mapping definition. Mapping is not proof or authorization. |
+| **DSVH (DesignLogic Semantic Verification Harness)** | A named framework verification-support surface for bounded validation activities. A DSVH result does not establish universal truth, certification, or deployment readiness. |
+| **PASDA** | A named framework signal derivation and measurement surface in which metrics may be derived only through stated derivation and formula rules from atomic PASDA signal records, with review or adjudication where required. LLM self-assessment predicts; PASDA measures; variance compares. |
+| **Lens-to-GSM** | A named mapping surface for relating lens-derived information to a GSM (Governed Semantic Model)-facing representation under an applicable mapping definition. Mapping is not proof or authorization. |
 | **dataset admission** | The governed acceptance of a dataset candidate for a specified use under defined criteria and review. Admission is not model quality. |
 | **model card** | A bounded documentation record about a model and its declared context, constraints, or evidence posture. It does not itself establish model quality or approval. |
 | **registry record** | A recorded entry identifying an artifact, model-related item, or state within an applicable registry surface. It is not deployment approval. |

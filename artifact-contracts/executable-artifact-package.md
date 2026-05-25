@@ -10,7 +10,7 @@ Market Validated: false
 
 ## Definition
 
-An **ExecutableArtifactPackage** is an executable artifact package in the DesignLogic Framework: a bounded package structured sufficiently for a declared downstream process to interpret or receive it. The word **executable** describes preparation for that defined process; it does not grant authority to execute or make a quality or safety claim.
+An **ExecutableArtifactPackage**, the executable artifact package surface in the DesignLogic Framework, is a bounded package structured sufficiently for a declared downstream process to interpret or receive it. The word **executable** describes preparation for that defined process; it does not grant authority to execute or make a quality or safety claim.
 
 ## Intended Downstream Use
 

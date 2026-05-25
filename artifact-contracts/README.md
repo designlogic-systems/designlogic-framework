@@ -35,13 +35,13 @@ Artifact contracts help preserve source context, definition state, intended down
 | DefinitionVersion | Identifies which definition state an artifact uses or transfers. | Versioning is not correctness or approval. |
 | Handoff artifact | Transfers bounded information, state, and outstanding needs to a recipient. | Handoff is not deployment. |
 | Build brief | Packages bounded requirements and constraints for a build-facing context. | Builder-ready is not build-authorized. |
-| ExecutableArtifactPackage | Packages material structured for a defined downstream process. | Executable does not mean approved. |
+| ExecutableArtifactPackage, the executable artifact package surface | Packages material structured for a defined downstream process. | Executable does not mean approved. |
 
 ## Current Files
 
 | File | Purpose |
 | --- | --- |
-| [executable-artifact-package.md](executable-artifact-package.md) | Defines packaging for a declared downstream process and its authority limit. |
+| [executable-artifact-package.md](executable-artifact-package.md) | Defines `ExecutableArtifactPackage`, the executable artifact package surface, for a declared downstream process and its authority limit. |
 | [handoff-artifact.md](handoff-artifact.md) | Defines transfer content, status, recipient, and downstream review needs. |
 | [build-brief.md](build-brief.md) | Defines bounded build-facing requirements and authorization limits. |
 
