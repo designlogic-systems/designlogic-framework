@@ -51,6 +51,7 @@ The DesignLogic Framework is intended to help teams:
 | `sds/` | Structured definition surfaces, including SDS and App SDS material. | A definition does not demonstrate implementation or product readiness. |
 | `artifact-contracts/` | Artifact lifecycle, handoff artifact, `ExecutableArtifactPackage`, the executable artifact package surface, and build brief contract surfaces. | Artifact structure is not correctness; handoff is not deployment. |
 | `authority-boundaries/` | Authority and review boundary surfaces for bounded decisions and transitions. | Documentation of a boundary does not enforce or satisfy it. |
+| `review-workflows/` | Applied review procedures for inspecting bounded artifacts, claims, transitions, handoffs, or proposed uses before downstream reliance. | A review workflow does not establish implementation, product validation, or authority to act. |
 | `verification/` | Verification-support surfaces such as bounded validation, DSVH (DesignLogic Semantic Verification Harness), and the named PASDA signal/measurement surface. | A validation result is not universal truth or certification. |
 | `model-pipeline/` | Dataset admission, model card, registry record, and related trace-to-model surfaces. | Admission, training, or registration does not establish model quality or deployment approval. |
 | `mappings/` | Mapping surfaces, including Lens-to-GSM relationships toward GSM (Governed Semantic Model)-facing representations where defined. | A mapping does not prove semantic correctness or authorize downstream action. |
