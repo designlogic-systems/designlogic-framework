@@ -10,7 +10,7 @@ Market Validated: false
 
 ## What This Repository Documents
 
-The **DesignLogic Framework** is the applied reusable-module layer built from **DesignLogic Semantic Runtime Architecture**. This repository documents framework surfaces for semantic structuring, system and app definition, artifact lifecycle, authority boundaries, handoff contracts, verification support, and governed trace-to-model pathways.
+The **DesignLogic Framework** is the applied reusable-module layer built from **DesignLogic Semantic Runtime Architecture**. This repository documents framework surfaces for semantic structuring, system and app definition, artifact lifecycle, authority boundaries, review workflows, handoff contracts, verification support, and governed trace-to-model pathways.
 
 It is a framework documentation repository. It is not a product implementation, a deployed runtime, or evidence that any described module has been implemented or accepted for use.
 
@@ -59,12 +59,13 @@ The DesignLogic Framework is intended to help teams:
 
 ## Where To Start
 
-1. Read [USE_BOUNDARY.md](USE_BOUNDARY.md) before interpreting any framework surface as evidence or authority.
-2. Read [GLOSSARY.md](GLOSSARY.md) for public framework terminology and bounded meanings.
-3. Read [STATUS.md](STATUS.md) for the current maturity and evidence posture.
+1. Read [USE_BOUNDARY.md](USE_BOUNDARY.md) before interpreting any framework surface as evidence, permission, or authority.
+2. Read [STATUS.md](STATUS.md) for the current maturity and evidence posture.
+3. Read [GLOSSARY.md](GLOSSARY.md) for public framework terminology and bounded meanings.
 4. Read [Architecture to Framework Mapping](mappings/architecture-to-framework.md) and [Framework to Apps Mapping](mappings/framework-to-apps.md) for the layer-to-use relationship.
-5. Read the [App Structuring Framework Example](examples/app-structuring-framework-example.md) for a bounded illustration of the pattern.
-6. Continue to the relevant surface directory for its scoped definitions or contracts.
+5. Read [AI Claim Boundary Review](review-workflows/ai-claim-boundary-review.md) for the first applied review workflow.
+6. Read the [App Structuring Framework Example](examples/app-structuring-framework-example.md) for a bounded illustration of the pattern.
+7. Continue to the relevant surface directory for its scoped definitions or contracts.
 
 ## What This Framework Does Not Prove Or Authorize
 
@@ -75,6 +76,6 @@ This repository does not establish:
 - legal compliance, security certification, or safety certification;
 - model quality, model deployment approval, or admitted training suitability merely from a documented pathway;
 - authorization to act from a model output, recommendation, handoff, executable label, trace, or validation result; or
-- authority as raw USS canon, DesignLogic Semantic Runtime Architecture itself, a DLWB implementation, or open-source licensed material.
+- authority as raw USS canon, DesignLogic Semantic Runtime Architecture itself, a DLWB implementation, or open-source licensed material. Public visibility does not grant an open-source license.
 
 Framework definitions can guide applied work only within their stated boundaries. Implementations and DesignLogic Apps must supply their own evidence, review decisions, authorization, and readiness posture.
